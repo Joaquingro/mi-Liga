@@ -1,0 +1,30 @@
+<p>{{nombre}}</p>
+
+<mat-divider></mat-divider>
+
+<h2>Jugadores</h2>
+
+<mat-accordion class="jugadores-headers-align">
+    <mat-expansion-panel hideToogle = "true">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                {{jugadorDetalle.nombre}}
+            </mat-panel-title>
+            <mat-panel-description>
+                Delantero - {{jugadorDetalle.estado}} 
+                <mat-icon>account-circle</mat-icon>
+                
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+    </mat-expansion-panel>
+</mat-accordion>
+
+<mat-divider></mat-divider>
+
+<app-jugador 
+    *ngFor="let j of jugadores; let i = index"
+    [jugador] = "j"
+    [equipo] = "nombre"
+    (onActivate) = "actualizarEstado($event)"
+>
+</app-jugador>

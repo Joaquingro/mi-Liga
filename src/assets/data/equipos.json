@@ -1,0 +1,20 @@
+[{
+    "nombre": "Piratas",
+    "logo": "imagen.jpg",
+    "estado": false,
+    "jugadores": [],
+    "id": 51564
+}, {
+    "nombre": "Felinos",
+    "logo": "imagen.jpg",
+    "estado": false,
+    "jugadores": [],
+    "id": 51565
+},
+{
+    "nombre": "Tiburones",
+    "logo": "imagen.jpg",
+    "estado": false,
+    "jugadores": [],
+    "id": 51566
+}]

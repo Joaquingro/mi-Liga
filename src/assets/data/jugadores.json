@@ -1,0 +1,39 @@
+[{ 
+    "nombre": "Sergio",
+    "edad": 35,
+    "apodo": "Felino",
+    "foto": "image.jpg",
+    "posicion": "Portero",
+    "estado": false
+}, 
+{
+    "nombre": "Joaquin",
+    "edad": 30,
+    "apodo": "Cuquis",
+    "foto": "image.jpg",
+    "posicion": "Delantero",
+    "estado": false
+}, 
+{
+    "nombre": "Ivan",
+    "edad": 31,
+    "apodo": "Ivato",
+    "foto": "image.jpg",
+    "posicion": "Delantero",
+    "estado": false
+}, 
+{
+    "nombre": "Elias",
+    "edad": 25,
+    "apodo": "Negro",
+    "foto": "image.jpg",
+    "posicion": "Medio",
+    "estado": false
+}, {
+    "nombre": "David",
+    "edad": 22,
+    "apodo": "Gordito",
+    "foto": "image.jpg",
+    "posicion": "Defensa",
+    "estado": false
+}]
