@@ -12,6 +12,7 @@ import { MatIconModule } from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
 //Componentes
 import { JuegoComponent } from './juego/juego.component';
 import { EquipoComponent } from './equipo/equipo.component';
@@ -38,6 +39,7 @@ import { LoginComponent } from './login/login.component';
     MatDividerModule,
     MatExpansionModule,
     MatCardModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

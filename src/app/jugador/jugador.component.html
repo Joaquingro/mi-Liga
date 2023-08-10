@@ -1,4 +1,5 @@
-<mat-card class="jugador-card">
+<div class="container">
+<mat-card class="jugador-card" >
     <mat-card-header>
         <div mat-card-avatar class="jugador-header-image"></div>
         <mat-card-title>{{jugador?.nombre}}</mat-card-title>
@@ -6,8 +7,9 @@
     </mat-card-header>
     <img mat-card-image src="http://via.placeholder.com/200x200?text=Foto+de+jugador"/> 
     <mat-card-actions align="end">
-        <button mat-button color="primary" (click) = "handleClick()">Activar</button>
+        <button mat-button color="primary" (click) = "desactivar()" >Desactivar</button>
     </mat-card-actions>
 </mat-card>
+</div>
 
 

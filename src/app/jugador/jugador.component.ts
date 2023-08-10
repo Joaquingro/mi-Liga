@@ -15,7 +15,7 @@ export class JugadorComponent {
   @Output('onActivate')
   estatus: EventEmitter<boolean> = new EventEmitter<boolean>;
 
-  handleClick(){
-    this.estatus.emit(true);
+  desactivar() {
+    this.estatus.emit(false);
   }
 }
